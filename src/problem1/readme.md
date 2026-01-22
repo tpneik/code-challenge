@@ -23,8 +23,9 @@ An iterative approach using a standard loop to accumulate the sum.
 A functional approach where the function calls itself until it reaches a base case.
 
 * **Logic:**
-    * **Base case:** If $n \leq 0$, return $0$.
-    * **Recursive step:** Return $n + \text{sumToN\_Recursion}(n - 1)$.
+![alt text](image.png)
+    <!-- * **Base case:** If $n \leq 0$, return $0$.
+    * **Recursive step:** Return $n + \text{sumToN\_Recursion}(n - 1)$. -->
 * **Example (n = 5):**
     * `sumToN(5)` $\to 5 + \text{sumToN}(4)$
     * `sumToN(4)` $\to 4 + \text{sumToN}(3)$
