@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+:root {
+    font-family: 'Inter Variable', sans-serif;
+    color: #ebf2f5;
+    font-weight: 200;
+}
